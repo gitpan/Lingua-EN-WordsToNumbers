@@ -1,0 +1,32 @@
+NAME
+
+Lingua::EN::WordsToNumbers - convert numbers written in English to actual numbers
+
+DESCRIPTION
+
+This module is an OO wrapper for Lingua::EN::Words2Nums, which is very nice, but has an unfortunate name (which doesn't help when you're searching CPAN for modules that turn words into numbers).
+
+INSTALLING
+
+    perl Build.PL
+    ./Build
+    ./Build test
+    
+then as root
+
+    ./Build install
+    
+for a local install, replace the first step with:
+
+    perl Build.PL install_path=lib=/path/to/my/modules/
+    
+AUTHOR
+
+Earle Martin <EMARTIN@cpan.org>
+
+* http://purl.oclc.org/net/earlemartin/
+
+LICENSE
+
+This work is licensed under the Creative Commons Attribution-ShareAlike License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/1.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+

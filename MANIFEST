@@ -1,0 +1,8 @@
+Build.PL
+MANIFEST
+Makefile.PL
+META.yml
+NINJA
+README
+lib/Lingua/EN/WordsToNumbers.pm
+t/numberize.t

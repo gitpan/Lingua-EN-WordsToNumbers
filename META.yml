@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name: Lingua-EN-WordsToNumbers
+version: 0.1
+license: unrestricted
+distribution_type: module
+requires:
+  Lingua::EN::Words2Nums: 0
+recommends: {}
+build_requires: {}
+conflicts: {}
+provides:
+  Lingua::EN::WordsToNumbers:
+    file: lib/Lingua/EN/WordsToNumbers.pm
+    version: 0.1
+generated_by: Module::Build version 0.21
