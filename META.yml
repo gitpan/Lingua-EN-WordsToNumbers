@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name: Lingua-EN-WordsToNumbers
-version: 0.1
-license: unrestricted
+version: 0.11
+license: perl
 distribution_type: module
 requires:
   Lingua::EN::Words2Nums: 0
@@ -11,5 +11,5 @@ conflicts: {}
 provides:
   Lingua::EN::WordsToNumbers:
     file: lib/Lingua/EN/WordsToNumbers.pm
-    version: 0.1
+    version: 0.11
 generated_by: Module::Build version 0.21

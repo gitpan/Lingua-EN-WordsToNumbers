@@ -5,7 +5,7 @@ use strict;
 
 use vars qw($VERSION);
 
-$VERSION = 0.1;
+$VERSION = 0.11;
 
 use Lingua::EN::Words2Nums ();
 
@@ -123,8 +123,10 @@ Thanks to Joey Hess (JOEY) for writing L<Lingua::EN::Words2Nums> which does the 
 
 This module was jointly conceived with Leon Brocard (LBROCARD) one lunchtime.
 
-=head1 LICENSE
+=head1 LEGAL
 
-This work is licensed under the Creative Commons Attribution-ShareAlike License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/1.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+Copyright 2004 Earle Martin. All Rights Reserved.
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut
