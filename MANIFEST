@@ -3,7 +3,8 @@ CHANGES
 MANIFEST
 Makefile.PL
 META.yml
-NINJA
 README
 lib/Lingua/EN/WordsToNumbers.pm
 t/numberize.t
+t/pod.t
+t/pod_coverage.t

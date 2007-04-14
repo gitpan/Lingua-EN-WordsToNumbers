@@ -4,31 +4,37 @@ Lingua::EN::WordsToNumbers - convert numbers written in English to actual number
 
 DESCRIPTION
 
-This module is an OO wrapper for Lingua::EN::Words2Nums, which is very nice, but has an unfortunate name (which doesn't help when you're searching CPAN for modules that turn words into numbers).
+This module is a tiny wrapper for Lingua::EN::Words2Nums, which is very nice, but
+has an unfortunate name (which doesn't help when you're searching CPAN for
+modules that turn words into numbers).
 
-INSTALLING
+SYNOPSIS
 
-    perl Build.PL
-    ./Build
-    ./Build test
-    
-then as root
+    use Lingua::EN::WordsToNumbers qw(words_to_numbers);
 
-    ./Build install
-    
-for a local install, replace the first step with:
+    print words_to_numbers("Forty-two");             # "42"
 
-    perl Build.PL install_path=lib=/path/to/my/modules/
+    Lingua::EN::WordsToNumbers->set_debug('y');      # debug mode on
+    Lingua::EN::WordsToNumbers->set_debug('n');      # debug mode on
+
+    Lingua::EN::WordsToNumbers->set_billion(10**12); # use "English billion"
     
 AUTHOR
 
-Earle Martin <EMARTIN@cpan.org>
+Earle Martin <hex@cpan.org>
 
-* http://purl.oclc.org/net/earlemartin/
+http://downlode.org
+
+CREDITS
+
+All credit is due to Joey Hess (JOEY) for writing Lingua::EN::Words2Nums which
+does the actual work.
+
+This module was jointly conceived with Leon Brocard (LBROCARD) one lunchtime.
 
 LEGAL
 
-Copyright 2004 Earle Martin.
+Copyright 2004-2007 Earle Martin. All rights reserved.
 
-This module is free software; you can redistribute it and/or modify it under
-the same terms as Perl itself.
+This module is free software; you can redistribute it and/or modify it under the
+same terms as Perl itself.

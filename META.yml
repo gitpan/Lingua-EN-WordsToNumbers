@@ -1,15 +1,23 @@
---- #YAML:1.0
+---
 name: Lingua-EN-WordsToNumbers
-version: 0.11
+version: 0.2
+author:
+  - 'Earle Martin <hex@cpan.org>'
+abstract: convert numbers written in English to actual numbers
 license: perl
-distribution_type: module
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
   Lingua::EN::Words2Nums: 0
-recommends: {}
-build_requires: {}
-conflicts: {}
+build_requires:
+  Test::Pod: 0
+  Test::Pod::Coverage: 0
+  Test::Warn: 0
 provides:
   Lingua::EN::WordsToNumbers:
     file: lib/Lingua/EN/WordsToNumbers.pm
-    version: 0.11
-generated_by: Module::Build version 0.21
+    version: 0.2
+generated_by: Module::Build version 0.2805
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

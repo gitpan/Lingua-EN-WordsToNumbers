@@ -1,8 +1,11 @@
+2007-04-14: 0.2
+	Add a normal interface to replace bizarre OO style. What a difference
+	to understanding three years makes.
+
 2004-04-07: 0.11
-            * Version 0.1 was released under an inappropriate license: as
-              this module is a derivative work of Lingua::EN::Words2Nums,
-              it should be released under the same license. This release
-              corrects the situation.
+	The preceding version was released under an inappropriate license.
+	this module is a derivative work of Lingua::EN::Words2Nums, it should
+	be released under the same license.
 
 2004-03-11: 0.1
-            * Initial release.
+	Initial release.
