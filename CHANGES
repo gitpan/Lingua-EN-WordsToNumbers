@@ -1,3 +1,6 @@
+2007-04-17: 0.21
+	One of the tests referred to the wrong module.
+
 2007-04-14: 0.2
 	Add a normal interface to replace bizarre OO style. What a difference
 	to understanding three years makes.

@@ -3,7 +3,7 @@ package Lingua::EN::WordsToNumbers;
 use warnings;
 use strict;
 
-our $VERSION = 0.2;
+our $VERSION = 0.21;
 
 use base qw(Exporter);
 our @EXPORT_OK = qw(words_to_numbers);

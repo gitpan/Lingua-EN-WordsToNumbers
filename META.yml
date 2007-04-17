@@ -1,6 +1,6 @@
 ---
 name: Lingua-EN-WordsToNumbers
-version: 0.2
+version: 0.21
 author:
   - 'Earle Martin <hex@cpan.org>'
 abstract: convert numbers written in English to actual numbers
@@ -16,7 +16,7 @@ build_requires:
 provides:
   Lingua::EN::WordsToNumbers:
     file: lib/Lingua/EN/WordsToNumbers.pm
-    version: 0.2
+    version: 0.21
 generated_by: Module::Build version 0.2805
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
